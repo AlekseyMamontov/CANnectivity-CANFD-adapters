@@ -1,6 +1,6 @@
 
-![CANnectivity Logo](https://cannectivity.org/_static/CANnectivity.png)
 
+<img src="https://cannectivity.org/_static/CANnectivity.png" width="300" alt="CANnectivity Logo">
 Project https://cannectivity.org/building.html
 
 INSTALL Ubuntu 24.04
