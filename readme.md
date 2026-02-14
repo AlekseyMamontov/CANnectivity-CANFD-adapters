@@ -41,7 +41,7 @@ export GNUARMEMB_TOOLCHAIN_PATH=/usr
 </pre>
 ..
 
-USB CAN FD SOLO     
+**USB CAN FD SOLO**     
 
 <pre>west build -b usbcanfd_Oleksii_g431  cannectivity/app/ -- -DFILE_SUFFIX=release</pre>
 
@@ -51,7 +51,7 @@ Build configurations for using the experimental device_next USB device stack in 
 
 
 
-USB CAN FD DUAL        
+**USB CAN FD DUAL**        
 
 <pre>west build -b usbcanfd_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=release</pre>
 
