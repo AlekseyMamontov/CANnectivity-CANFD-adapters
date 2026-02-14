@@ -58,6 +58,40 @@ Build configurations for using the experimental device_next USB device stack in 
 Build configurations for using the experimental device_next USB device stack in Zephyr are also provided.
 
 <pre>west build -b usbcanfd_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=usbd_next_releas</pre>
+
+
+Linux terminal (example usbcanfd dual)
+
+sudo ip link show
+
+<pre>
+32: can0: <NOARP,ECHO> mtu 16 qdisc noop state DOWN mode DEFAULT group default qlen 10
+    link/can 
+33: can1: <NOARP,ECHO> mtu 16 qdisc noop state DOWN mode DEFAULT group default qlen 10
+    link/can 
+</pre>
+
+CAN  500kb  fdata 5Mb 
+<pre>
+sudo ip link set can0 up type can bitrate 500000 dbitrate 5000000 fd on
+sudo ip link set can1 up type can bitrate 500000 dbitrate 5000000 fd on
+</pre>
+
+sudo ip link show
+
+<pre>
+32: can0: <NOARP,UP,LOWER_UP,ECHO> mtu 72 qdisc pfifo_fast state UP mode DEFAULT group default qlen 10
+    link/can 
+33: can1: <NOARP,UP,LOWER_UP,ECHO> mtu 72 qdisc pfifo_fast state UP mode DEFAULT group default qlen 10
+    link/can 
+</pre>
+
+cangen can0 -f   
+or 
+cangen can1 -f
+
+
+
 ----------------------------
 can-module.com
 --------------------------
