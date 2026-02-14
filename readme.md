@@ -27,9 +27,13 @@ west update
 
 ----------------------------
 
-USB CAN FD SOLO        west build -b usbcanfd_Oleksii_g431  cannectivity/app/ -- -DFILE_SUFFIX=release
+USB CAN FD SOLO       
 
-USB CAN FD DUAL        west build -b usbcanfd_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=release
+west build -b usbcanfd_Oleksii_g431  cannectivity/app/ -- -DFILE_SUFFIX=release
+
+USB CAN FD DUAL        
+
+west build -b usbcanfd_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=release
 
 
 
