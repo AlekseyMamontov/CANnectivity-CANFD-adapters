@@ -1,7 +1,9 @@
 
 
 <img src="https://cannectivity.org/_static/CANnectivity.png" width="300" alt="CANnectivity Logo">
-Project https://cannectivity.org/building.html
+Project
+https://cannectivity.org/building.html
+https://github.com/CANnectivity
 
 INSTALL Ubuntu 24.04
 ------------------------------
