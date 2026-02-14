@@ -62,7 +62,7 @@ Build configurations for using the experimental device_next USB device stack in 
 
 Linux terminal (example usbcanfd dual)
 
-sudo ip link show
+<pre>sudo ip link show</pre>
 
 <pre>
 32: can0: <NOARP,ECHO> mtu 16 qdisc noop state DOWN mode DEFAULT group default qlen 10
@@ -77,7 +77,7 @@ sudo ip link set can0 up type can bitrate 500000 dbitrate 5000000 fd on
 sudo ip link set can1 up type can bitrate 500000 dbitrate 5000000 fd on
 </pre>
 
-sudo ip link show
+<pre>sudo ip link show</pre>
 
 <pre>
 32: can0: <NOARP,UP,LOWER_UP,ECHO> mtu 72 qdisc pfifo_fast state UP mode DEFAULT group default qlen 10
@@ -86,9 +86,9 @@ sudo ip link show
     link/can 
 </pre>
 
-cangen can0 -f   
-or 
-cangen can1 -f
+Test: generation CANFD packet
+<pre> cangen can0 -f   </pre>
+<pre> cangen can1 -f   </pre>
 
 
 
