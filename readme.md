@@ -31,11 +31,13 @@ cd my-workspace
 
 source .venv/bin/activate
 
+west update
+
 export ZEPHYR_TOOLCHAIN_VARIANT=gnuarmemb
 
 export GNUARMEMB_TOOLCHAIN_PATH=/usr
 
-west update
+
 </pre>
 ..
 
