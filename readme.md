@@ -26,11 +26,11 @@ INSTALL Ubuntu 24.04
    pip install --user -U west
  
    python3 -m venv .venv
-
+   
+   source .venv/bin/activate
+ 
 cd my-workspace
-
-source .venv/bin/activate
-
+ 
 west update
 
 export ZEPHYR_TOOLCHAIN_VARIANT=gnuarmemb
