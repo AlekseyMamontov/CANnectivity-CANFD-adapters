@@ -85,7 +85,7 @@ Build configurations for using the experimental device_next USB device stack in 
     link/can 
 </pre>
 
-CAN  500kb  fdata 5Mb 
+***CAN  500kb  fdata 5Mb*** 
 <pre>
 sudo ip link set can0 up type can bitrate 500000 dbitrate 5000000 fd on
 sudo ip link set can1 up type can bitrate 500000 dbitrate 5000000 fd on
@@ -100,7 +100,7 @@ sudo ip link set can1 up type can bitrate 500000 dbitrate 5000000 fd on
     link/can 
 </pre>
 
-Test: generation CANFD packet
+***Test: generation CANFD packet***
 <pre> cangen can0 -f   </pre>
 <pre> cangen can1 -f   </pre>
 
