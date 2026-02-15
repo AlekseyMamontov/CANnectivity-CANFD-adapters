@@ -105,7 +105,10 @@ Test: generation CANFD packet
 <pre> cangen can1 -f   </pre>
 
 
-
+***Force bind gs_usb driver via udev for kernels < 6.15*** 
+<pre>
+echo 'ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="1209", ATTRS{idProduct}=="ca01", RUN+="/sbin/modprobe gs_usb", RUN+="/bin/sh -c \"echo 1209 ca01 > /sys/bus/usb/drivers/gs_usb/new_id\""' | sudo tee /etc/udev/rules.d/99-cannectivity.rules
+</pre>
 ----------------------------
 can-module.com
 --------------------------
