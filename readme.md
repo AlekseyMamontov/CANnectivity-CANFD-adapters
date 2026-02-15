@@ -43,7 +43,9 @@ export GNUARMEMB_TOOLCHAIN_PATH=/usr
 
 
 </pre>
+
 ..
+
 
 **USB CAN FD SOLO**     
 
@@ -64,7 +66,18 @@ Build configurations for using the experimental device_next USB device stack in 
 <pre>west build -b usbcanfd_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=usbd_next_releas</pre>
 
 
-Linux terminal (example usbcanfd dual)
+***Linux terminal*** (example usbcanfd dual)
+
+
+** if linux kernel < 6.15 **
+<pre>
+ 
+ sudo modprobe gs_usb
+ 
+ echo "1209 ca01" | sudo tee /sys/bus/usb/drivers/gs_usb/new_id
+
+</pre>
+
 
 <pre>sudo ip link show</pre>
 
