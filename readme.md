@@ -56,7 +56,7 @@ Build configurations for using the experimental device_next USB device stack in 
 <pre>west build -b usbcan_iso  cannectivity/app/ -- -DFILE_SUFFIX=usbd_next_release</pre>
 
 
-**USB CAN FD SOLO**     
+**USB CAN FD SOLO  (1 ch)**     
 
 <pre>west build -b usbcanfd_Oleksii_g431  cannectivity/app/ -- -DFILE_SUFFIX=release</pre>
 
@@ -66,13 +66,26 @@ Build configurations for using the experimental device_next USB device stack in 
 
 
 
-**USB CAN FD DUAL**        
+**USB CAN FD DUAL  (2ch)**        
 
 <pre>west build -b usbcanfd_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=release</pre>
 
 Build configurations for using the experimental device_next USB device stack in Zephyr are also provided.
 
 <pre>west build -b usbcanfd_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=usbd_next_release</pre>
+
+
+**USB CAN FD TRIO  (3 ch)**        
+
+<pre>west build -b canBridge_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=release</pre>
+
+Build configurations for using the experimental device_next USB device stack in Zephyr are also provided.
+
+<pre>west build -b canBridge_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=usbd_next_release</pre>
+
+
+
+
 
 
 ***Linux terminal*** (example usbcanfd dual)
