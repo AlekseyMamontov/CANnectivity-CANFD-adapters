@@ -119,6 +119,12 @@ sudo ip link set can0 up type can bitrate 500000 dbitrate 5000000 fd on
 sudo ip link set can1 up type can bitrate 500000 dbitrate 5000000 fd on
 </pre>
 
+***CAN  500kb  fdata 8Mb*** 
+<pre>
+sudo ip link set can0 up type can bitrate 500000 dbitrate 8000000 fd on
+</pre>
+
+
 <pre>sudo ip link show</pre>
 
 <pre>
