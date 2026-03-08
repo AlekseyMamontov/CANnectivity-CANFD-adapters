@@ -58,7 +58,7 @@ Build configurations for using the experimental device_next USB device stack in 
 
 **USB CAN FD SOLO  (1 ch)**     
 
-<img src="https://github.com/AlekseyMamontov/CANnectivity-CANFD-adapters/blob/main/img/G431_1.png" width="300" alt="CANnectivity g431">
+<img src="https://github.com/AlekseyMamontov/CANnectivity-CANFD-adapters/blob/main/img/G431_1.png" width="300" alt="CANnectivity g431 can-module.com">
 
 <pre>west build -b usbcanfd_Oleksii_g431  cannectivity/app/ -- -DFILE_SUFFIX=release</pre>
 
@@ -68,7 +68,9 @@ Build configurations for using the experimental device_next USB device stack in 
 
 
 
-**USB CAN FD DUAL  (2ch)**        
+**USB CAN FD DUAL  (2ch)**   
+
+<img src="https://github.com/AlekseyMamontov/CANnectivity-CANFD-adapters/blob/main/img/G473.png" width="300" alt="CANnectivity g431 can-module.com">
 
 <pre>west build -b usbcanfd_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=release</pre>
 
