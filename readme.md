@@ -79,7 +79,9 @@ Build configurations for using the experimental device_next USB device stack in 
 <pre>west build -b usbcanfd_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=usbd_next_release</pre>
 
 
-**USB CAN FD TRIO  (3 ch)**        
+**USB CAN FD TRIO  (3 ch)** 
+
+<img src="https://github.com/AlekseyMamontov/CANnectivity-CANFD-adapters/blob/main/img/CanBridge.png" width="300" alt="CANnectivity g473 can-module.com">
 
 <pre>west build -b canBridge_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=release</pre>
 
@@ -87,7 +89,7 @@ Build configurations for using the experimental device_next USB device stack in 
 
 <pre>west build -b canBridge_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=usbd_next_release</pre>
 
-<img src="https://github.com/AlekseyMamontov/CANnectivity-CANFD-adapters/blob/main/img/CanBridge.png" width="300" alt="CANnectivity g473 can-module.com">
+
 
 
 
