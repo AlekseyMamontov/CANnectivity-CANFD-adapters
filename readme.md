@@ -152,7 +152,11 @@ can-module.com
 <img src="https://github.com/AlekseyMamontov/CANnectivity-_CANFD-_adapters/blob/main/img/Too_adapters2.jpeg" width="400" alt="USBCANFD 2ch adapter can-module.com">
 
 
+
 ***3D-printable enclosures for CAN FD adapters (SOLO & DUAL) (freecad, stl, bambulab)***
+
+https://github.com/AlekseyMamontov/CANnectivity-CANFD-adapters/blob/main/3D_BoX_canfd.zip
+
 
 
 
