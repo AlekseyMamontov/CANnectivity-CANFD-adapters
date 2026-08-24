@@ -42,8 +42,6 @@ https://github.com/Elmue/CANable-2.5-firmware-Slcan-and-Candlelight
 
 
 
-
-
 Zephyr RTOS
 -----------
 
